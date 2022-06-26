@@ -1,0 +1,20 @@
+.wrapper{
+  padding: 10px;
+  border: 2px solid #99C8AD;
+  border-radius: 10px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.values{
+  padding: 10px;
+  border: 2px solid #99C8AD;
+  border-radius: 10px;
+  align-items: center;
+  height: 80px;
+}
+.values__item{
+  margin-bottom: 10px;
+}
