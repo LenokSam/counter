@@ -3,16 +3,7 @@ import {Counter} from '../Counter/Counter';
 import s from './CounterWrapper.module.css'
 
 import './CounterWrapper.module.css'
-import {
-  CollectorOfStartingValues,
-
-} from '../StartValues/CollectorOfStartingValues';
-import {log} from 'util';
-
-export type startValuesType = {
-  start: number
-  max: number
-}
+import {StartValues} from '../StartValues/StartValues';
 
 export type CountStateType={
   max:string
@@ -61,8 +52,7 @@ export const CounterWrapper = () => {
 
   return (
     <div className={s.wrapper}>
-
-      <CollectorOfStartingValues
+      <StartValues
         error={isNotCorrectValues}
         addStartValues={addStartValues}
         setStart={setStart}
@@ -79,7 +69,6 @@ export const CounterWrapper = () => {
         setCount={setCount}
         isReadyForCount={state.isReadyForCount}
       />
-
     </div>
   );
 };

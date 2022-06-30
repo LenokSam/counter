@@ -12,7 +12,7 @@ export type CollectorOfstartingValuesType = {
 }
 
 
-export const CollectorOfStartingValues: React.FC<CollectorOfstartingValuesType> = ({addStartValues,error,setStart,setMax,max,start}) => {
+export const StartValues: React.FC<CollectorOfstartingValuesType> = ({addStartValues,error,setStart,setMax,max,start}) => {
 
   const setStartOnChange = (e: ChangeEvent<HTMLInputElement>) => {
     setStart(e.currentTarget.value)
