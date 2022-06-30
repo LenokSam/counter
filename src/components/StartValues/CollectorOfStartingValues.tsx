@@ -9,18 +9,15 @@ export type CollectorOfstartingValuesType = {
   setMax: (max: string) => void
   max: string
   start: string
-  isReadyForCountSet: (ready: boolean) => void
 }
 
 
-export const CollectorOfStartingValues: React.FC<CollectorOfstartingValuesType> = ({addStartValues,error,setStart,setMax,max,start,isReadyForCountSet }) => {
+export const CollectorOfStartingValues: React.FC<CollectorOfstartingValuesType> = ({addStartValues,error,setStart,setMax,max,start}) => {
 
   const setStartOnChange = (e: ChangeEvent<HTMLInputElement>) => {
-    isReadyForCountSet(false)
     setStart(e.currentTarget.value)
   }
   const setMaxOnChange = (e: ChangeEvent<HTMLInputElement>) => {
-    isReadyForCountSet(false)
     setMax(e.currentTarget.value)
   }
 
