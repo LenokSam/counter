@@ -10,7 +10,7 @@
 }
 
 .values {
-  padding: 20px 30px 20px 30px;
+  padding: 10px 30px 10px 30px;
   background-color: #bcc7b3;
   border-radius: 10px;
   height: 80px;
@@ -22,7 +22,6 @@
 }
 
 .values__item {
-  /*margin-right: 20px;*/
 }
 
 .input {
