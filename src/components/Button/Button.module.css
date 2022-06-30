@@ -1,0 +1,17 @@
+button:disabled {
+  background: #ecdac2;
+  color: #7C7C7C !important;
+}
+
+.active{
+  background-color: #e2b995;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #FFFFFF;
+  margin: 5px;
+  font-size: 20px;
+}

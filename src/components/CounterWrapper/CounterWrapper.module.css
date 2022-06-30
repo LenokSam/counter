@@ -1,0 +1,13 @@
+.wrapper {
+  padding: 25px;
+  /*background-color: #eae9e4   ;*/
+ border: 1px solid #d3e0ce   ;
+  box-shadow: 7px 8px 8px 0px rgba(2, 3, 4, 0.2);
+  border-radius: 10px;
+  width: 680px;
+  display: flex;
+  flex-direction: row;
+  align-items: inherit;
+  justify-content: space-between;
+  margin: 0 auto;
+}

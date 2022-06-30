@@ -1,0 +1,33 @@
+.count__input{
+  width: 20px;
+
+}
+.input__title{
+  font-size: 10px;
+  margin: 5px;
+}
+.input__wrapper{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: center;
+
+}
+
+span{
+  font-size: 10px;
+  padding: 5px;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+.column{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
